@@ -33,7 +33,7 @@ public class Card {
         }
         else
         {
-            System.out.println("Not valid Suit");
+            System.out.println("Not valid Suit. Please check");
         }
     }
 
