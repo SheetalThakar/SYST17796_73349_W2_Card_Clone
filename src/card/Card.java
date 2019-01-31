@@ -8,7 +8,7 @@ package card;
 /**
  *A class to create Card
  * Each Card has suit and value
- * @author mehta 22nd Jan, demo fetch and merge,hi
+ * @author mehta JAN
  */
 public class Card {
 
