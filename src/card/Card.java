@@ -12,10 +12,27 @@ package card;
  */
 public class Card {
 
+    /**
+     * @return the MaxCouse
+     */
+    public int getMaxCouse() {
+        return MaxCouse;
+    }
+
+    /**
+     * @param MaxCouse the MaxCouse to set
+     */
+    public void setMaxCouse(int MaxCouse) {
+        this.MaxCouse = MaxCouse;
+    }
+
     private String suit;
     //Hearts,Spades,Diamonds,Clubs
 
         private int value;
+        
+        private int MaxCouse;
+                
         
         public Card(String givenSuit,int givenValue)
         {
